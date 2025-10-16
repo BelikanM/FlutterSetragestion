@@ -1,0 +1,49 @@
+name: setragestion
+description: "Flutter project for employee management"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🔐 Auth & HTTP
+  http: ^1.5.0
+  flutter_secure_storage:
+
+  # 🧠 State management
+  provider:
+
+  # 🍞 Toast messages
+  fluttertoast:
+
+  # 🕒 Gestion des dates
+  intl:
+
+  # 💎 Icônes & UI
+  cupertino_icons:
+  font_awesome_flutter:
+
+  # 🧾 Logs & routing
+  logger: ^2.6.2
+  go_router:
+
+  # ✨ Animations
+  animations:
+
+  # 🔌 Socket.IO
+  socket_io_client:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  json_serializable:
+
+flutter:
+  uses-material-design: true
