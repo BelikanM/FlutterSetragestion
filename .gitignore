@@ -1,0 +1,75 @@
+# ==================================
+# Miscellaneous
+# ==================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ==================================
+# IDE / Editor
+# ==================================
+*.iml
+*.ipr
+*.iws
+.idea/
+# .vscode/  # optionnel, à décommenter si tu veux versionner la config VSCode
+
+# ==================================
+# Flutter/Dart/Pub related
+# ==================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ==================================
+# Node.js / Backend
+# ==================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+backend/node_modules/
+backend/.env
+
+# ==================================
+# Flutter / Platform folders
+# ==================================
+ios/
+android/
+windows/
+macos/
+linux/
+
+# ==================================
+# Secrets / Env
+# ==================================
+.env
+
+# ==================================
+# Optional lock files
+# ==================================
+pubspec.lock
